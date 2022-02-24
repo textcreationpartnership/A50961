@@ -1,0 +1,714 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The svvord-bearer, or, Magistrates charge a sermon preached in the Chappell of Guild-Hall, at the election of the Lord Mayor / by Mathias Milward ...</title>
+            <author>Milward, Matthias, fl. 1603-1641.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 43 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A50961</idno>
+            <idno type="STC">Wing M2187</idno>
+            <idno type="STC">ESTC R14639</idno>
+            <idno type="EEBO-CITATION">12939862</idno>
+            <idno type="OCLC">ocm 12939862</idno>
+            <idno type="VID">95845</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A50961)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 95845)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 989:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The svvord-bearer, or, Magistrates charge a sermon preached in the Chappell of Guild-Hall, at the election of the Lord Mayor / by Mathias Milward ...</title>
+                  <author>Milward, Matthias, fl. 1603-1641.</author>
+               </titleStmt>
+               <extent>[4], 22, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Iohn Norton for Samuel Man ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>16[41]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+               <term>Mayors --  England --  London --  Election.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:95845:1"/>
+            <p>THE SVVORD-BEARER, <hi>OR,</hi> MAGISTRATES CHARGE.</p>
+            <p>
+               <hi>A</hi> Sermon preached in the Chappell of GUILD-HALL, at the Election of, the LORD
+MAYOR.</p>
+            <p>By MATHIAS MILWARD, Bachelor of Divinitie, Miniſter of Saint HILLENS.</p>
+            <q>
+               <bibl>
+                  <hi>AUG. To. 8. Pſ. 84.</hi>
+               </bibl>
+               <p>Juſtitia &amp; pax duae amicae ſunt, ſimul oſculantur; tu fortè unam vis, alteram
+non facis.</p>
+            </q>
+            <p>LONDON, Printed by <hi>John Norton</hi> for SAMUEL MAN, dwelling at the Swan in Saint
+<hi>Pauls</hi> Church-yard. 16<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap>.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:95845:2"/>
+            <pb facs="tcp:95845:2"/>
+            <head>TO THE RIGHT HONORABLE SIR HENRY GARWAY KNIGHT, LORD MAJOR OF THE HO<g ref="char:EOLhyphen"/>NORABLE CITIE OF
+LONDON.</head>
+            <opener>
+               <salute>RIGHT HONORABLE:</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>His Sermon of right belongeth to you, being by your appointment Preacht; as therefore rivers
+runne to the ſea from whence they flow; ſo this returnes to your Ho<g ref="char:EOLhyphen"/>nour from whence it
+ſprang. Be<g ref="char:EOLhyphen"/>ſides, It is yours (my Lord) by a due debt for many fa<g ref="char:EOLhyphen"/>vours received, for which,
+having no other way to ex<g ref="char:EOLhyphen"/>preſſe my thankfulneſſe, I commend this poore ſervice of
+<pb facs="tcp:95845:3"/>a verball but hearty acknowledgement for reall cour<g ref="char:EOLhyphen"/>teſies. Lastly, your wiſe
+wielding of the Sword you have borne, having drawne the hearts and voyces of the beſt towards
+you, hath alſo induced mee to this De<g ref="char:EOLhyphen"/>dication; wherein as others may ſee what you have been,
+ſo your worthy Succeſſour may ſee what he ſhould be; It was once mine, it is now yours,
+and ſo is</p>
+            <closer>
+               <salute>MY LORD,</salute> 
+               <signed>Your Honours moſt obliged,
+Mathias Milward.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:95845:3"/>
+            <head>THE SWORD-BEARER OR MAGISTRATES CHARGE.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>ROM. 13.4.</hi>
+                  </bibl>
+                  <p>For he beareth not the Sword in vaine.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>He Apoſtle here ſetteth downe a Rule for two ſorts of men; the Magiſtrate, and People;
+teaching the one how to governe, the other how to obey. Now, the Magiſtrate muſt be the
+ſubject of my diſ<g ref="char:EOLhyphen"/>courſe at this time; In whom two things are conſiderable. 1.
+<hi>Honos,</hi> his Honour. 2. <hi>Onus,</hi> his Charge; his Dignity, and his Dutie. <hi>He
+beareth the Sword,</hi> there's his honour: the <hi>Sword</hi> is a type of his authority: <hi>not
+in vaine,</hi> that points at his office, not onely for pomp, or ſtate, but for uſe, for
+execution of juſtice. In handling whereof, I would not be thought preſumptuous, as if like old
+do<g ref="char:EOLhyphen"/>ting <hi>Phormio,</hi> I would teach <hi>Hannibal;</hi> for I profeſſe my
+<pb n="2" facs="tcp:95845:4"/>ſelfe <hi>exiſtimatorem, non magiſtrum,</hi> an Adviſer only, no
+peremptory teacher; Neither let the name of <hi>Sword</hi> in theſe buiſie times be
+prejudicious to what I ſhall ſay, and think not my Sermon the ſharper for that; for I ſhall
+handle it ſo tenderly, as neither to provoke any enemies, nor to offend any friends, nor to hurt
+my ſelfe.</p>
+            <p>Firſt therefore the Honor of a Magiſtrate ſtands in two things. 1. His Ordinance. 2. His
+Preheminence.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> His Ordinance is of God; <hi>The powers that be, are ordained of God,</hi>
+ſaith the Apoſtle; <hi>Submit your ſelves</hi> (ſaith Saint <hi>Peter</hi>) <hi>to every
+ordinance of man, for the Lords ſake, whether it be to the King as ſupreame, or un<g ref="char:EOLhyphen"/>to
+Governours, as unto them that are ſent by him.</hi> 1 <hi>Pe<g ref="char:EOLhyphen"/>ter</hi> 2.13. Saint <hi>Peter</hi>
+calls them an humane ordinance, not in regard of the firſt inſtitution of it, but for uſe. 1.
+<hi>ſubjectvè,</hi> becauſe it is executed by man. 2. <hi>objectivè,</hi>
+becauſe humane affaires are the object of it. 3. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, in reſpect of the end,
+becauſe ordained for mans good: yet the Originall is from God. For as in the Creation of the
+world there was a ſpirit that formed; ſo in the conſervation thereof, the ſame ſpirit
+reformeth to this day, and that's done by Ruling. Man being by nature a ſociable creature, take
+away Rule and Power, you un<g ref="char:EOLhyphen"/>doe mans nature; and though ſinne brought into the world ſervitude
+and ſlavery, <hi>Gen.</hi> 9.25. <hi>Curſed be Ca<g ref="char:EOLhyphen"/>naan, a ſervant of ſervants ſhall hee
+be:</hi> yet God him<g ref="char:EOLhyphen"/>ſelfe ordain'd power and order; there's order among the bleſſed Angels,
+if not <hi>ex praecepto</hi> yet <hi>ex conſilio:</hi> and in every man God hath imprinted a
+double juriſdiction: one of the ſoule over the body, that's <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> the com<g ref="char:EOLhyphen"/>mand
+of a Maſter: another of the reaſon over the ap<g ref="char:EOLhyphen"/>petite:
+<pb n="3" facs="tcp:95845:4"/>petite: and that's <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the power of a Soveraigne. God in the
+beginning gave unto man a three-fold pow<g ref="char:EOLhyphen"/>er; Firſt, over himſelfe, by free-will to govern his
+acti<g ref="char:EOLhyphen"/>ons; for God ſet man at firſt <hi>non in Tuto ſed in cauto,</hi> ſaith S.
+<hi>Bern.</hi> not in ſuch ſecurity that he could not fall, nor in ſuch neceſſity that he
+could not chuſe but fall; but left him to the liberty of his owne will, not to fall if hee would
+not offend, nor to offend unleſſe hee would him<g ref="char:EOLhyphen"/>ſelfe. God gave him <hi>poſſe non
+peccare,</hi> but not <hi>non poſſe pec<g ref="char:EOLhyphen"/>care;</hi> that is, it was poſſible for him not to
+ſinne, but it was not impoſsible for him to ſinne. The ſecond power was over the creatures;
+for to mans <hi>multiplicamini</hi> God added <hi>dominamini. Let him have dominion over the fiſh
+of the ſea, and the fowles of the ayre. Geneſis</hi> 1.26. The third power was over man; which
+is either Oeconomi<g ref="char:EOLhyphen"/>call in families, of the husband over the wife, father over his children,
+maſter over ſervants; or Politicall in Citties <hi>viz.</hi> Monarchicall of one,
+Ariſtocraticall of ma<g ref="char:EOLhyphen"/>ny &amp; thoſe the beſt; or Democraticall which is the po<g ref="char:EOLhyphen"/>pular
+ſtate; All were ordain'd of God either mediatly, or immediatly. <hi>There is no power but of
+God,</hi> ſaith the Apoſtle; <hi>Non dicit, poteſtas eſt a deo, ſed non eſt poteſtas
+niſi à deo,</hi> ſaith <hi>Muſculus;</hi> yea that of the devill, whoſe will though
+it be ever wicked, yet his power by Gods permiſsion is never unjuſt; hee is called therefore
+<hi>The evill ſpirit from the Lord.</hi> 1 <hi>Sam.</hi> 16.23. An evill ſpirit, ſaith S.
+<hi>Gregory, Per deſiderium voluntatis iniquae,</hi> but yet from the Lord, <hi>per licentiam
+poteſtatis juſtae.</hi> Sometime perhaps, <hi>Potens</hi> the Ruler is not of God,
+<hi>Oſee</hi> 8.4. <hi>They have reigned, and not by mee.</hi> Or the manner of getting Rule is
+not of God; for many runne <hi>ad Cathedram non ad Curam,</hi> to the chaire, not to the cure; and
+<hi>Simon Magus</hi>
+               <pb n="4" facs="tcp:95845:5"/>will give any thing to be <hi>Simon Magnus;</hi> but the power it ſelfe is of
+God. The bleſſed Virgin <hi>Mary</hi> in her ſong ſaith, <hi>depoſuit potentes,</hi> Hee
+hath put downe the mighty from their ſeat; not <hi>poteſtatem,</hi> power ſimply, but their
+power, from doing further miſchiefe. The Elders gave glory <hi>ſedenti ſuper thronum,
+Revel.</hi> 4. and caſt their crownes at his feet; for <hi>ego ſum qui transfero regna,</hi>
+ſaith God in <hi>Daniel.</hi> All earthly power is but tranſlated, &amp; God is the Originall.
+He that ſaid, <hi>Per me reges regnant,</hi> By me Kings reigne, ſaid alſo, <hi>et domini
+dominantur,</hi> and Lords rule: It is the Lord that putteth the Sword into your hand. <hi>For he
+beareth the Sword.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> The ſecond point is their Preeminence. Every where the Scripture ſtiles
+them honourable. The King of Tyre is called the <hi>anoynted Cherub,</hi> whom God ſet in honour,
+<hi>Ezek.</hi> 28.14. <hi>Deborah</hi> a Mother in Iſrael <hi>Judg.</hi> 5.7. They cryed before
+<hi>Ioſeph Abrech,</hi> Bow the knee, or tender Father, <hi>Gen.</hi> 45. For as
+<hi>Xenophon</hi> ſaith, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a good Ruler differs not from a good father. They
+be called Heads, <hi>Numb.</hi> 1.16. for three cauſes. 1. For their eminence above the reſt.
+2. For command, becauſe the head governes all the body; yea many times when the body is at
+reſt, the head is moſt diſquieted. 3. For neceſſary uſe, becauſe from thence flowes
+ſence and motion into all the mem<g ref="char:EOLhyphen"/>bers of the body. And all theſe titles, what are they, but
+obligations of greateſt duties, and of greater neceſ<g ref="char:EOLunhyphen"/>ſity to depend upon God, both for advice
+in wiſedome and aſsiſtance in power? But that which tranſcends all, is, <hi>I ſaid yee
+are Gods;</hi> which is to be underſtood onely re<g ref="char:EOLhyphen"/>preſentatively, becauſe God hath given them
+power to ſpeake to the people in his name, and execute his judge<g ref="char:EOLhyphen"/>ments.
+<pb n="5" facs="tcp:95845:5"/>
+               <hi>I have made thee Pharaohs God,</hi> ſaid God to <hi>Moſes, Exod.</hi>
+7.1. And theſe attributes of honour in<g ref="char:EOLhyphen"/>ſtruct them how to governe, and others how to reve<g ref="char:EOLhyphen"/>rence
+them. Them how to governe, to rule for God, reward for God, puniſh for God; remembring alwaies
+though they are gods of the earth, yet they are but earthen gods; In their greateſt glory they
+are but <hi>virtus in infirmitate;</hi> and although by their birth or fortune they be ſifted
+from the branne of the vulgar, yet they are but <hi>ejuſdem farinae,</hi> of the ſame meale.
+Their heads of gold, and breaſts of ſilver, &amp;c. ſtand but upon feet of clay; the
+ſplendour of their renowne, the glory of their riches, and ſtrength of their greatneſſe
+hath but a duſty foundation; <hi>pulvis es, et in pulverem reverteris.</hi> Againe, it teacheth
+others how to reverence them. <hi>They that rule well, are worthy of double honour,</hi> 1
+<hi>Tim.</hi> 5.17. Single honour howſoever, becauſe of Rule, which is Gods ordinance; but
+<hi>double honour,</hi> if he be a good Ma<g ref="char:EOLhyphen"/>giſtrate, becauſe of his diligence.
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith Saint <hi>Chryſoſtome,</hi> very much honour; or <hi>double,</hi>
+ſaith <hi>Aquine, reverentiae &amp; ſubſidij,</hi> reverence and maintenance, allegeance and
+allowance. So tender is God for pre<g ref="char:EOLhyphen"/>ſervation of their dignities, that hee gave his people
+charge, <hi>Elobim lo thikkallel, Thou ſhalt not raile upon the gods, nor curſe the Ruler of
+thy people, Exod.</hi> 22.28. And by an ancient Canon, a ſevere Cenſure was impoſed upon him
+that was <hi>contumelioſus in magiſtratum;</hi> if a lay man, to excommunicate him; if in
+orders, to depoſe him; their perſons ſhould be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, inviolable, for they are
+ſacred, like an <hi>Aſylum,</hi> a Sanctuary or conſecrated Tem<g ref="char:EOLhyphen"/>ple, which for the veneration
+of Religion might not be violated. For this cauſe <hi>David</hi> would not lay hands
+<pb n="6" facs="tcp:95845:6"/>upon <hi>Saul</hi> when occaſion gave him power over his life; for though hee
+was wicked, yet hee was the Lords anoynted; he had <hi>ſanctitatem unctionis,</hi> though not
+<hi>vitae;</hi> an holy calling, though not an holy carriage. S. <hi>Jude</hi> ſets it downe for
+a note of reprobate men, <hi>to deſpiſe dominion, and ſpeake evill of dignities.</hi> Yet
+ſuch a per<g ref="char:EOLhyphen"/>nicious brood there is in the world, that bend their tongues like a bow againſt
+authority, and ſhoot out their arrowes, even bitter words. What learned Praelate hath not this
+Blatant beaſt bitten? what Reverend Judge hath not this ſerpent ſtung? What honeſt man hath
+not been beſpattered with this filthy vomit? yea, Chriſt himſelfe was not free from the
+aſperſion of un<g ref="char:EOLhyphen"/>righteous ſpeakers, who called him a friend of Publi<g ref="char:EOLhyphen"/>cans and ſinners, and
+aſcribed their miracles to the power of Belzebub. But let them goe; and <hi>good luck have you
+with your honour; ride on becauſe of the word of truth;</hi> remember it is that which gives you
+honour, and it ſtands with your honour to maintaine that. For you beare the <hi>ſword;</hi> And
+ſo I take my leave of your ho<g ref="char:EOLhyphen"/>nour, and come next to your charge; for as I have ſhewed them how
+great they are, ſo I muſt needs tell them how good they ſhould be.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Their charge ſtandeth in the uſe of the <hi>ſword,</hi> where<g ref="char:EOLhyphen"/>unto three
+things are required: 1. Good lawes, they are like the ſword in the ſcabbard. 2. <g ref="char:V">Ʋ</g>pright
+judge<g ref="char:EOLhyphen"/>ment according to thoſe lawes, that's like a ſword drawne. 3. Juſt execution, that
+ſtrikes the ſtroke.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> To the making of good lawes three things are requi<g ref="char:EOLhyphen"/>red. 1. The matter, which
+muſt be agreeable to the law of nature and will of God. 2. The end, to maintaine vertue, and
+ſuppreſſe vice. 3. Their extent, not for pri<g ref="char:EOLhyphen"/>vate
+<pb n="7" facs="tcp:95845:6"/>gaine, but for publick good. And when lawes are made, there's no exemption of any
+perſon from their obedience and ſubjection. <hi>Let every ſoule be ſub<g ref="char:EOLhyphen"/>ject to the higher
+powers,</hi> ſaith the Apoſtle. <hi>Omnis ani<g ref="char:EOLhyphen"/>ma; anima propter voluntatem, omnis propter
+univerſalitatem;</hi> the ſoule, becauſe obedience ought to be voluntary; every ſoule
+becauſe it muſt univerſall. To ſay there<g ref="char:EOLhyphen"/>fore the Clergie is exempted, becauſe it is not
+ſaid <hi>Omnis ſpiritus,</hi> but <hi>omnis anima,</hi> that is, <hi>animalis ho<g ref="char:EOLhyphen"/>mo</hi> the
+laity, not <hi>ſpiritualis homo</hi> the Clergie, is <hi>vipe<g ref="char:EOLhyphen"/>rina gloſsa,</hi> and cates out
+the bowels of the text. For the ſoule is taken for the whole man; <hi>every ſoule,</hi> that
+is, every man; there were <hi>eight ſoules</hi> in <hi>Noahs</hi> Ark, that is, eight perſons,
+1 <hi>Pet.</hi> 3.20. But I grant you ſaith <hi>Bellarmine:</hi> they are ſubject
+<hi>obligatione directiva, non coactiva,</hi> by obligation of direction, not coercion, which is as
+much as to ſay as farre as they liſt themſelves. Is this ſubjection, or rather is it not a
+cunning evaſion? that's no law that hath onely reference to their diſcereti<g ref="char:EOLhyphen"/>on for whom it is
+enacted; that very reference loſeth the reverence and authority of it. Juſtice and right in
+giving every one his due, ſhould have the ſame place in the common-wealth, which faith and
+religion claymeth in the Church. Now, as in religion there are ſome things in ſubſtance, and
+ſome things of ceremony; ſo there are ſome points eſſentiall in juſtice, and ſome
+ac<g ref="char:EOLhyphen"/>cidentall; the eſſentiall points of juſtice are the ſame in lawes of all common-wealths;
+for what is a law but a divine ordinance, commanding things honeſt, and for<g ref="char:EOLhyphen"/>bidding the contrary?
+The accidentall parts doe and may vary according to the circumſtances of times, per<g ref="char:EOLhyphen"/>ſons, and
+places. For as good remedies are occaſioned
+<pb n="8" facs="tcp:95845:7"/>from bad diſeaſes, ſo <hi>ex malis moribus bonae leges oriuntur.</hi> There
+was in ancient times no law againſt a Parricide, whereof <hi>Solon</hi> being ask'd the reaſon,
+anſwered, Hee thought no man ſo unnaturall as to commit that ſinne; but when the
+wickedneſſe of the times had produc'd ſuch monſtrous Imps that did kill their owne fathers,
+then a law was provided, and a puniſhment ſet downe; for the Party ſo offending, was to be
+ſowed in a leathern ſack, with a Dogge, a Cock, a Viper, and an Ape, foure angry creatures, and
+ſo caſt into ſome deepe water, as unworthy to reape the benefit of any of the foure
+ele<g ref="char:EOLhyphen"/>ments; the reaſon whereof is given to be this, <hi>Vt qui eum necaſſet unde ipſe natus
+eſſet, careret rebus omnibus unde omnia naſcuntur,</hi> That he which kill'd him of whom he
+was borne, ſhould be deprived of thoſe things whereof all things are bred. In the time of
+Innocencie God gave man a law; One tree he muſt not eate of. It was not envie as the devill would
+perſwade, but a type of <hi>Adams</hi> obedience, as if God ſhould tell him, ſaith Saint
+<hi>Auſtin:</hi> If <hi>Adam</hi> would know the reaſon, <hi>Quia ego domi<g ref="char:EOLhyphen"/>nus, tu ſervus;
+obedientem te volo, non contradicentem,</hi> I am thy Lord, thou my ſervant; I will have thee
+obedient, not repugnant. Much more now are lawes neceſſarie, yea new lawes according to
+occaſion, either for preven<g ref="char:EOLhyphen"/>tion to ſtop a miſchiefe enſuing, or for ſubvention to remedy
+evils paſt. They are like waters that receive their tincture and taſts from the ſoyles
+through which they runne, and ſo change according to the regions and governments where they are
+planted; yet they proceed from the ſame fountaine of juſtice; They ought not by multitude of
+conſtitutions to be ſnares to good minds, nor by the quirks of mercenarie wits to be perverted
+to
+<pb n="9" facs="tcp:95845:7"/>bad purpoſes; Lawes ſhould command, not diſpute. The people of
+<hi>Aegina</hi> did impoſe a pecuniarie mulct upon him that had occaſioned a new Law. Amongſt
+the Athenians there was but one new Law made for an hun<g ref="char:EOLhyphen"/>dred yeares, and that was procured by one
+that was <hi>monoculus,</hi> and the Law was this, That hee ſhould loſe both his eyes, who had
+put out his that had but one. For our part (God be thanked) wee have good Lawes, no Kingdome
+better; and whether there be any need of more, that muſt be left to the wiſdom of the
+Eſtates. If I have herein exceeded my bounds, I cry pardon of the Lawyers; I am ſure the
+leſſe wee have to doe with their Law, the better men will like of our Divinity. On<g ref="char:EOLhyphen"/>ly with old
+father <hi>Latimer,</hi> I hope it is no harme to wiſh one Law more to be made, which might be
+like that of the Medes and Perſians unalterable, namely for execu<g ref="char:EOLhyphen"/>tion of thoſe Lawes that are
+to be made: For Lawes on<g ref="char:EOLhyphen"/>ly made and not executed, are like the Sword in the ſcabbard. I come
+therefore to the ſecond point, which is, the Sword drawne, and that's upright judgement.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> To cleare this paſſage, foure obſtacles muſt be remo<g ref="char:EOLhyphen"/>ved; Feare,
+Covetouſneſſe, Hatred, and Favour; Feare dares not draw the Sword, Covetouſneſſe will
+not, Ha<g ref="char:EOLhyphen"/>tred muſt not, and Favour may not: of each of theſe ſome thing.</p>
+            <p>Feare was <hi>Pilats</hi> fault; hee ſought many meanes to deliver Jeſus, but feare of
+<hi>Caeſars</hi> diſpleaſure hindered him: <hi>If thou let this man goe, thou art not
+Caeſars friend,</hi> ſaid the Jewes; then he condemned Chriſt, <hi>Iohn</hi> 19.12. If he had
+ſaid, <hi>Vivat Rex, &amp; currat Lex,</hi> God bleſſe <hi>Caeſar,</hi> and let the Law
+have his courſe, he had beene a good Judge.</p>
+            <pb n="10" facs="tcp:95845:8"/>
+            <p>There is a Signe in Heaven called <hi>Virgo,</hi> betwixt <hi>Leo</hi> and <hi>Libra;
+Pierius</hi> in his Hieroglyphicks compares Ju<g ref="char:EOLhyphen"/>ſtice to this Signe: for Juſtice is a pure
+intemerate Vir<g ref="char:EOLhyphen"/>gin, never corrupted by thoſe too ſhameleſſe Sollicitors, <hi>Nimium &amp;
+Parum,</hi> Exceſſe and Defect: ſhee hath <hi>Leo</hi> on the one ſide, becauſe a
+<hi>juſt man is bold as a Lion, Prov.</hi> 26.1. and <hi>Libra,</hi> a paire of Ballances, on the
+other ſide, weighing out to every man his right; which he cannot doe equally, if he feare any
+mans diſpleaſure. He muſt remember Gods encouragement to <hi>Joſua, Be valiant and of a
+good courage.</hi> Feare is forbidden by our Saviour Chriſt, <hi>Mat.</hi> 10. <hi>Feare not them
+that can kill the Body.</hi> A three-fold reaſon is there given; firſt, in regard of mans
+impotence, for his power reacheth no further than the Body, which is but the Bellowes of the Soule,
+through which ſhe breathes. <hi>Anaxarchi follem tundis, non Anax<g ref="char:EOLhyphen"/>archum,</hi> ſaid he, when he
+was maul'd to death. Secondly, in regard of Gods providence, which extendeth it ſelfe to the
+lives of unreaſonable creatures, without which a Sparrow falls not upon the ground. If the life
+of a Sparrow be governed by Divine Providence, the price whereof is not a farthing; ſhall not the
+life of the Juſt much more, the price whereof is the blood of Chriſt? Thirdly, whatſoever
+becomes of our Bodies, not an haire ſhall be miſſing, at the Reſurrection: <hi>The haires
+of your head are numbred,</hi> ſaith Chriſt. <hi>Non eſt timendum de majoribus ubi eſt cura
+de minimis; ſi ſic cuſtodiuntur ſuperflua tua, in quanta ſecuritate eſt anima tua?</hi>
+If God care for our ſuperfluities, much more for our neceſſaries, the Soule eſpecially.
+<hi>Feare not therefore,</hi> ſaith our Saviour Chriſt. The Magiſtrate that beares the Sword,
+muſt be magna<g ref="char:EOLhyphen"/>nimous. Certainely, God hath ſet ſuch an impreſſion
+<pb n="11" facs="tcp:95845:8"/>of Majeſtie in the face of lawfull Authoritie, that wic<g ref="char:EOLhyphen"/>kedneſſe is
+confounded in it ſelfe to behold it: For, if from hence the Power that is viſible, were not
+more feared than the inviſible God, the world would be over-run with outrage. Therefore a good
+Magiſtrate, like a wiſe Phyſician, feares not to let out the corrupt blood of Malefactors, to
+ſave the life of the State; for the Body of the Common-wealth cannot live, unleſſe her bad
+Members bleed: This requireth fortitude, and Feare dares not draw the Sword.</p>
+            <p>The ſecond impediment, is Covetouſneſſe; and that will not draw the Sword. The Prophet
+<hi>Oſee</hi> complai<g ref="char:EOLhyphen"/>neth, <hi>Their Rulers love to ſay with ſhame, Bring yee, Oſ.</hi>
+4.18. It was the fault of <hi>Samuels</hi> ſonnes, they did not walke in their fathers wayes: Why
+ſo? <hi>Dilexerunt munera,</hi> they loved Gifts, nay, Bribes, that was the right name: What
+followed? <hi>Perverterunt judicium,</hi> 1 <hi>Sam.</hi> 8.3. Then God tooke away the Government;
+the peo<g ref="char:EOLhyphen"/>ple choſe <hi>Saul</hi> King, and thoſe bribing Judges were caſt off.
+<hi>Ariſtophanes</hi> jeaſting upon <hi>Cleon,</hi> as <hi>Plutarch</hi> hath it, ſaith,
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, This man can skill of no ſtraine but the <hi>Dorick;</hi> alluding to
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>mu<g ref="char:EOLhyphen"/>neribus corrumpi,</hi> the bribing ſtraine, rightly ſo called:
+for, <hi>a wicked man</hi> (ſaith <hi>Salomon</hi>) <hi>taketh a gift out of the boſome, to
+wreſt or ſtraine the wayes of Judgement.</hi> Many a heavie Curſe hath God layd upon this
+ſinne: <hi>Woe be unto them</hi> (ſaith the Prophet <hi>Eſay</hi>) <hi>that joyne houſe to
+houſe, and field to field, till there be no place, Eſ.</hi> 5.8. not ſpeaking againſt
+honeſt purchaſing, but wicked compaſsing, till there be no place, no place for a neighbour to
+live by them. Saint <hi>Ambroſe</hi> complained in his time of ſuch greedie encroachments: Rich
+men cannot dwell alone
+<pb n="12" facs="tcp:95845:9"/>upon earth, ſayes hee; beaſts herd together, birds flock together, fiſhes
+ſwim in ſholes together, <hi>nec dam<g ref="char:EOLhyphen"/>num ducunt ſed commercium vivendi,</hi> They finde a
+kinde of commerce, no dammage in it; <hi>Solus tu homo conſortem excludis, includis feras,
+ſtruis habitacula beſtiarum, deſtruis hominem,</hi> Man alone ſhuts out the companion of
+his life, and emparketh beaſts.</p>
+            <p>When <hi>Alexander</hi> ſent <hi>Phocion</hi> an hundred talents, he asked why amongſt ſo
+many Athenians the King ſent gifts unto him? becauſe (ſaith the Meſſenger) he heares that
+thou onely art a juſt man; then <hi>Phocion; Quin igi<g ref="char:EOLhyphen"/>tur poſthac me bonum eſſe
+permittat,</hi> Let him ſuffer mee to be ſo ſtill, for this is the way to make me ſtark
+naught.</p>
+            <p>What is the glory of a Citie? not ſumptuous build<g ref="char:EOLhyphen"/>ings and ſtately pallaces, but where the
+three faire daughters of <hi>Themis</hi> doe flouriſh, <hi>Eunomia, Dice, Eirene,</hi> Equity,
+Juſtice, and Peace. Or as <hi>Perſa</hi> the Captive virgin ſaid of <hi>Athens,</hi> being
+asked, if it were not a good<g ref="char:EOLhyphen"/>ly ſtrong fenced Citie, anſwered, <hi>Si incolae bene ſint
+mo<g ref="char:EOLhyphen"/>rati, pulchre munitam arbitror; perfidia &amp; peculatus ex urbe &amp; avaritia ſi
+exulant;</hi> if perfidiouſneſſe, and perjurie, and falſhood, if ambition, and pilling, and
+polling were baniſhed, it were then a goodly Citie indeed.</p>
+            <p>When at a Diet in <hi>Wormes</hi> in <hi>Maximilians</hi> time, the Princes there met, and upon
+occaſion ſet forth the ex<g ref="char:EOLhyphen"/>cellencie of their ſeverall Dominions;The Duke of <hi>Saxonie</hi>
+glorying in his Minerall veines, The <hi>Bavarian</hi> in his beautifull Cities, The Count
+<hi>Palatine</hi> in his fer<g ref="char:EOLhyphen"/>tile ſoyle: Onely <hi>Eberhard</hi> Duke of <hi>Wittenburgh</hi>
+ſaid no<g ref="char:EOLhyphen"/>thing but this, I can boaſt of nothing in that kinde, but this I am proud of, I can lay
+downe my head and ſleepe ſecurely in the boſome of any of my Subjects; an un<g ref="char:EOLhyphen"/>valuable
+<pb n="13" facs="tcp:95845:9"/>prerogative of a Prince, and no where to be found but where the Magiſtrate and
+the people hate Covetouſneſſe. For as Feare dares not draw the Sword, ſo
+Covetouſneſſe will not.</p>
+            <p>The third impediment is Hatred; and that muſt not. For <hi>the wrath of man doth not
+accompliſh the righteouſneſſe of God, James</hi> 1.20. For although it be ſaid at the end
+of this verſe, that the Magiſtrate is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>muſt take vengeance in
+wrath,</hi> or <hi>is a Revenger to execute wrath,</hi> that is, puniſhment <hi>upon him that
+doth evill;</hi> yet he muſt not draw the <hi>ſword</hi> in anger againſt the Perſon, but
+againſt the ſinne. There is a time when a man may be angry; <hi>Moſes</hi> was angry
+againſt the Iſraelites idolatry, <hi>Exod.</hi> 32.19. and did not offend; <hi>Jonas</hi> was
+angry at Gods mercy in ſparing the Ninivites, and he was reproved; <hi>Doeſt thou well to be
+angry, ſaith God, Jon.</hi> 4.4. Chriſt was rail'd at, mock'd, and crucified; yet was not
+angry, but prayed for his enemies, <hi>Father forgive them, for they know not what they doe.</hi>
+But when hee ſaw his Fathers Houſe abus'd, then he was angry, and whipt them out of the Temple;
+hee had anger certainly, though not as a paſſion of re<g ref="char:EOLhyphen"/>venge, yet of deteſtation; it was
+zealous anger, not vi<g ref="char:EOLhyphen"/>cious anger. Unbridled anger is a temporary frenzie; for there's a two-fold
+madneſſe; one of the head which makes men runne out of their wits; another of the heart which
+turns them out of their patience, and that's anger. This if it be of long continuance, growes to be
+hatred, and <hi>he that hates his brother, is a man-ſlayer,</hi> 1 <hi>Joh.</hi> 3.15. Not ſo
+much becauſe he hurts his brother, whom he hates; but becauſe he ſlayeth his own ſoule;
+yea, and his brothers too, if he could; <hi>Ille vivit,</hi> ſaith S. <hi>Auguſtine, &amp;
+tamen tu occidiſti;</hi> hee liveth, yet thou haſt kill'd him
+<pb n="14" facs="tcp:95845:10"/>as much as in thee lyeth.</p>
+            <p>Now, if a Magiſtrate be drawne into hatred of any mans perſon, hee may be a double Homicide;
+for be<g ref="char:EOLhyphen"/>ſides the miſchiefe he doth to himſelfe, hee may be the death of another. When
+<hi>Joſua</hi> proceeded againſt <hi>A<g ref="char:EOLhyphen"/>chan,</hi> he did it mildly; <hi>My ſonne,
+confeſſe thy fault and give glory to God, Ioſ.</hi> 7.19. A Magiſtrate ſhould have
+leaſt in<g ref="char:EOLhyphen"/>tereſt in himſelfe. <hi>Ariſtides</hi> ſitting in judgement upon two men that
+were adverſaries, One of them thinking to make his cauſe the better by accuſing his enemie,
+ſaid, O <hi>Ariſtides,</hi> this man hath done thee great wrong. My friend, quoth
+<hi>Ariſtides,</hi> Tell mee what wrong hee hath done thee: for I ſit here to doe thee
+juſtice, and not my ſelfe. This <hi>ſword</hi> therefore muſt not be drawne againſt the
+perſon of the offender, but againſt the of<g ref="char:EOLhyphen"/>fence of the perſon; in deteſtation of the
+fault, not of the man; for it muſt not be drawne in hatred.</p>
+            <p>The fourth impediment, is Partialitie or favour. <hi>Je<g ref="char:EOLhyphen"/>hoſaphat</hi> having ſet Judges in
+the Land, gave them this Charge; <hi>Take heed what yee doe, for you judge not for man, but for the
+Lord,</hi> 2 <hi>Chron.</hi> 19. That word excludes all cor<g ref="char:EOLhyphen"/>ruption: for if he be puſillanimous,
+he will judge for man; that makes him feare his enemies; if partiall, to favour his friends; if
+covetous, to love himſelfe too much; if he be malicious, he will hate others: And then Truth
+muſt needs have a cold Suit, when Malice is chiefe Juror, and Partialitie the Judge. I know Pitie
+is the beſt prayſe of humanitie, and fruit of Chriſtian love; but in Judgement, it may have
+no place: he muſt heare the ſmall as well as the great, the rich and the wretch both alike.
+<hi>Alexander</hi> when he ſate in judge<g ref="char:EOLhyphen"/>ment, would with one eare open heare the Plaintiffe, and
+
+<pb n="15" facs="tcp:95845:10"/>keepe the other for the Defendant: it was juſtly done; for, <hi>Qui ſtatuit
+aliquid parte inauditâ alterâ, aequum licet ſtatuerit, haud aequus fuit,</hi> ſaid
+the Tragedian. Hee that determineth upon hearing of but one party, though his judgement be true,
+yet he is not right Judge. For favour being the falſe advocate of the gracious, is injurious to
+truth; and it is required, that Judges ſhould be <hi>men of truth, Exod.</hi> 18. Now, there is
+<hi>veritas vitae, veritas juſti<g ref="char:EOLhyphen"/>tiae, veritas doctrinae;</hi> Truth of life, when our
+converſa<g ref="char:EOLhyphen"/>tion is framed according to the rule of truth; truth of doctrine, diſtinguiſhing
+truth from error, and right from wrong; truth of juſtice, in giving every man his owne. A
+Magiſtrate therefore muſt be inflexible, unpartiall, free from paſſion and affection; with
+a ſword in one hand, and his ballance in the other; <hi>Ponderat haec cauſas, percutit ille
+reos;</hi> to ponder mens cauſes, and puniſh their offences, without partiality.</p>
+            <p>Now having removed the impediments, I come to the drawing of the Sword, which is upright
+Judgement. You will ſay, perhaps, it hath beene long in drawing: and I anſwer, The blocks in
+the way were heavie, and not ſoone removed; and beſides, <hi>Nulla unquam de vita hominis
+cunctatio longa eſt,</hi> a man cannot demurre too much upon a mans life: for, if he wrongfully
+miſcarry, and the Sword be drawne unjuſtly, what amends can be made for his unjuſt
+ſuffering? Upright Judgement there<g ref="char:EOLhyphen"/>fore, according to Law, is the true drawing of the Sword:
+whereunto three things are required; firſt, Wiſdome; ſecondly, Pietie; thirdly,
+Juſtice.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Wiſedome in diſcuſſing cauſes. This hath ever car<g ref="char:EOLhyphen"/>ried that ſhew of
+excellencie, that the very wicked have laboured to put on the vizard of it. <hi>Come,</hi> ſayes
+<hi>Pharaoh,
+<pb n="16" facs="tcp:95845:11"/>let us doe wiſely;</hi> yet his wiſedome proved folly, becauſe it was
+againſt Gods people: ſo it is with all the worldly wiſe, as Saint <hi>Paul</hi> ſayth,
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Whileſt they ſeemed to be wiſe, they became fooles, Rom.</hi> 1.
+But marke the wiſedome of <hi>Job,</hi> when he was a Magiſtrate; <hi>When I knew not the
+cauſe, I ſought it out diligently, Job</hi> 29.16. This was Gods owne way, to teach man: for
+although all things are open and manifeſt to his eyes, yet marke how, in judgement, he commends
+deliberation. The ſinnes of Sodome were exceeding grievous, and their Crie was great; yet, <hi>I
+will goe downe now</hi> (ſayes God) <hi>and ſee, whether they have done altogether according to
+that Crie; and if not, that I may know.</hi> Queſtionleſſe, God heard and knew; but,
+<hi>noluit audita judicare,</hi> he would not judge by the eare onely, but by the eye: <hi>Vnus
+oculatus teſtis plus valet quam auriti decem,</hi> One ocular witneſſe is worth ten
+auricular: therefore he ſaith, <hi>Deſcendam &amp; videbo, I will goe downe and ſee;</hi> to
+inſtruct men that are in authoritie. Saith Saint <hi>Gregorie, Magna crimina tardè
+credenda ſunt cum audiuntur, citius punienda cum cognoſcuntur;</hi> They muſt be ſlow to
+beleeve but upon ſtrong evidence, and readie to puniſh upon juſt proofe. For the Law
+pre<g ref="char:EOLhyphen"/>ſumes every man to be good, till he be apparantly bad; but when facts have made the contrarie
+evident, then the ſame Law preſumes him to be <hi>ſemper malus qui ſemel malus, in eodem
+genere mali,</hi> to be ſtill naught in that kind wherein he is once tainted.</p>
+            <p>When <hi>Adam</hi> had ſinned, God proceeded againſt him judiciouſly: Hee came to him, not
+running, but <hi>walking;</hi> not in heat, but <hi>coole of the day:</hi> not puniſhing, but
+firſt expoſtulating in a voice audible and ſenſible; <hi>Adam, where art thou?</hi> So
+<hi>Solomon,</hi> when he heard the
+<pb n="17" facs="tcp:95845:11"/>women ſay what they could, and had ſought out the cauſe diligently, then
+<hi>bring me a ſword</hi> (ſaith he); <hi>and all Iſrael heard the judgement which the King
+had judged, and they feared the King; for they ſaw that the wiſedome of God was in him, to doe
+juſtice,</hi> 1 <hi>Kings</hi> 3.28. Wiſdome in the true uſe of the Sword, makes a juſt man
+both feared and lov'd; the good men feare him lovingly, the middle ſort love him fearefully:
+onely the wicked malefactor feares him ſervilely, <hi>For he beareth not the Sword in
+vaine.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> But now, what's Wiſedome without Godlineſſe, but worldly policie?
+Therefore to upright judgement Piety is required, The <hi>wiſe man feareth and departeth from
+evill,</hi> ſaith <hi>Solomon, Pro.</hi> 14.16. Therefore <hi>when the righteous are in
+authority, the people rejoyce; but when the wicked comes on and riſes up, the man is tried, the
+good hide themſelves, and the people ſigh, Pro.</hi> 29.2. O how beautifull a ſight it is and
+glorious to behold great men to be good men, <hi>Caeſars</hi> favourite to be Chriſts follower!
+Religion there<g ref="char:EOLhyphen"/>fore goes beyond Law; for it is but halfe a mans hone<g ref="char:EOLhyphen"/>ſtie to be no better than
+the Law makes him, which ſeeth but the out-ſide, and cenſureth onely mens actions: but
+Religion cleares the conſcience of evill affections, it reformes the great ones themſelves,
+making their eyes ſingle, and eares indifferent, and hands cleane, and hearts upright, to doe
+nothing without the teſtimony of a good conſcience.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> And thirdly, to be religious to God-ward, and not juſt to man, is to be but a
+vaine-glorious hypocrite: therefore to the drawing of the <hi>ſword,</hi> which is upright
+judgement, Juſtice is a maine requiſite. And it is thus defined by <hi>Vlpianus, Juſtitia
+eſt conſtans &amp; perpetua volun<g ref="char:EOLhyphen"/>tas jus ſuum cui<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tribuendi.</hi> It is 1.
+<hi>voluntas,</hi> and there<g ref="char:EOLhyphen"/>fore
+<pb n="18" facs="tcp:95845:12"/>muſt be intended. 2. <hi>conſtans,</hi> therefore ought not to be
+corrupted; That's conſtant juſtice, <hi>Quae ne<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> po<g ref="char:EOLhyphen"/>tentiâ frangi nec pecuniâ
+corrumpi, nec gratiâ inflecti poteſt.</hi> Which neither money can wreſt, nor power
+breake, nor favour bend. 3. <hi>perpetua,</hi> That ſuppoſeth not one act onely, but an habit;
+for juſtice is not to doe <hi>juſta,</hi> which unjuſt men may doe, <hi>Mic.</hi> 6. but
+<hi>juſtè,</hi> and that requireth three things, 1. The minde of juſtice in the doer. 2.
+The rule of juſtice in the thing done. 3. The end of juſtice in the doing. 4. <hi>Jus ſuum
+cui<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tribuendi.</hi> To give every man his owne. For as every vertue hath his proper object;
+fortitude hath perils, temperance conſiſts in moderation of pleaſures, prudence in politick
+affaires, diſcerning good or ill; ſo Juſtice hath <hi>ſuum cuique</hi> for it's object and
+office. Of all vertues they ſay Juſtice minds <hi>alienum bonum,</hi> the good of another,
+receives no benefit from men, but the praiſe of a juſt action, their prayers and praiſes. And
+that juſtly. For if the Magi<g ref="char:EOLhyphen"/>ſtrate take himſelfe from his buiſineſſe, his friends, and
+pleaſures, to intereſt himſelfe in many thankleſſe la<g ref="char:EOLhyphen"/>bours, to compound idle ſtrifes,
+to watch over our ſafe<g ref="char:EOLhyphen"/>ty, to be diſturb'd with out-cries when wee ſleepe, is it not juſt
+hee ſhould be honoured with an anſwerable eſtate of pomp and magnificence to expreſſe his
+great<g ref="char:EOLhyphen"/>neſſe; and this honour be it what it may be, is not <hi>huma<g ref="char:EOLhyphen"/>nitatis officium,</hi> but
+<hi>adminiſtrationis beneficium;</hi> not at our courteſie, but Gods appointment, <hi>For hee
+beareth not the ſword in vaine.</hi> And thus you ſee the Sword drawne, which is upright
+judgement.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Juſt execution, and that ſtrikes the ſtroke, without which all the reſt
+is but an idle flouriſh. In execution of Juſtice, there ought to be a moderation to qualifie
+the
+<pb n="19" facs="tcp:95845:12"/>rigour of it; for extremity to be uſed alwayes is for<g ref="char:EOLhyphen"/>bidden by God
+himſelfe. <hi>Noli eſſe juſtus nimis, Eccl.</hi> 7.18. Preſſe not juſtice too farre,
+neither urge it extreamely. <hi>Lex enim quia ſeipſam mollire non poteſt, à nobis
+mitiganda eſt, ut ſint qui proficiant. Aug.</hi> The Prophet <hi>Amos</hi> com<g ref="char:EOLhyphen"/>plaines of
+ſome <hi>that turned judgement into gall, and the fruit of righteouſneſſe into wormewood,
+Amos</hi> 6.12. There is a Court in <hi>France</hi> called the <hi>Torneilles,</hi> which is the
+chamber for criminall cauſes, ſo called becauſe the Judges of the other ſix chambers which
+are for civill cauſes, ſit there by turnes; the reaſon <hi>Bodin</hi> gives (as a learned
+Surveyer of <hi>France</hi> ſaith) that it might not alter the naturall inclination of the
+Judges, and make them more cruell, by being alwayes exerciſed in matters of condemnations and
+executions. It was appointed in the law of God, that <hi>forty ſtripes</hi> ſhould be given to
+the offender, <hi>and not to exceed, leſt thy brother ſhould be deſpiſed in thy ſight,
+Deut.</hi> 25.3. Therefore the Jewes inflicted up<g ref="char:EOLhyphen"/>on <hi>Paul fourty ſtripes ſave one.</hi>
+Fourty was the law, and if they had given the <hi>ſummum jus</hi> of the law, they thought they
+had done injurie; ſo eaſie it is by a tranſpoſition of one letter to turne <hi>Jus</hi>
+into <hi>Vis.</hi> There ought to be therefore a wiſe mixture of juſtice and mercy; this
+without that, is fooliſh pitie; and that without this, is cruelty. The love of mercie doth not
+take away the exerciſe, but ſeverity of juſtice, the acerbity or worm<g ref="char:EOLhyphen"/>wood of it, when the
+mighty <hi>hunt their brother with a net, Mic.</hi> 7.2. <hi>or digge pits</hi> (which we call
+plots) <hi>for the ſoules of others, Jer.</hi> 18. They doe not think the cup of juſtice bitter
+enough, unleſſe it be mingled with their gall.</p>
+            <p>The breſt of the Judge ſhould be like the Arke of the
+<pb n="20" facs="tcp:95845:13"/>Covenant, wherein three things were put, <hi>Virga, Manna, Tabulae;</hi> the
+Tables of the Law, the Rod of <hi>Aaron,</hi> the Pot of Manna; Inſtruction, Unction,
+Conſolation. Two things (ſaith <hi>Nazienzene</hi>) are requiſite in Cor<g ref="char:EOLhyphen"/>rection,
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Lenitie and Severitie; but they both
+tranſgreſſe, if not well qualified: if the one be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and the other
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, implacable or in<g ref="char:EOLhyphen"/>diſcreet, they may doe much hurt; that looſeth the
+reines, with too much remiſſeneſſe; and this ſtrangleth, with too much ſtraitneſſe:
+There muſt be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as well as <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; humane compaſsion, as well
+as ſevere in<g ref="char:EOLhyphen"/>dignation; and then ſtrike on Gods name.</p>
+            <p>And now the <hi>Sword</hi> is in your hand, it were good ſome felt the edge of it. Againſt
+whom then would you turne it? There are a ſort of Emiſſaries, the Semi<g ref="char:EOLhyphen"/>naries of Sedition,
+that doe ſo ply our Recuſants, im<g ref="char:EOLhyphen"/>printing in them a ſetled deteſtation of our Church, whom
+the Pope having fed a few yeares, makes them his inſtruments to build up his Monarchie: And
+hither they come, being bound by a blind obedience, to main<g ref="char:EOLhyphen"/>taine his pompe with the expence of
+their deareſt lives, and are packt over by that relentleſſe Merchant, that trades on no other
+but the Red Sea of Blood. Should theſe have the <hi>Sword</hi> turn'd upon them? Some perhaps may
+thinke ſo; the <hi>Sword</hi> of Juſtice, not Violence; and ſo thinke I: or rather, if it may
+be, I wiſh them all ſound-hearted in England, or ſafe harboured in Rome.</p>
+            <p>Furthermore, if any Rebels or ſeditious perſons diſturbe the State, Time, the Mother of
+Truth, will diſcover them: The <hi>Sword</hi> is an edged toole; and for me, it is not ſafe
+medling with it: God guide the heart and hand of him that beares it. I will be no
+<pb n="21" facs="tcp:95845:13"/>
+               <hi>Bickri,</hi> to blow the Trumpet. The Church and Com<g ref="char:EOLhyphen"/>mon-wealth are like
+<hi>Hippocrates</hi> Twinnes; they laugh and weepe together, they live and die together: and as the
+rending of the Veile of the Temple preſaged the ruine of the ſtate of the Jewes, which followed
+ſhortly after; ſo Schiſmes, if not prevented, will overthrow Government, and at laſt bring
+in Anar<g ref="char:EOLhyphen"/>chie and confuſion. <hi>I would</hi> (ſaith the Apoſtle) <hi>that they were cut off
+that trouble you, Gal.</hi> 5.12. I dare not wiſh ſo. <hi>Paul</hi> was of an extraordinarie
+ſpirit; and the reaſon why I dare not, is, becauſe when a member is cut off, it is hard
+ſetting of it on againe. If it be rotten and uncurable, there is need of an <hi>Enſe
+reci<g ref="char:EOLhyphen"/>dendum eſt.</hi> But, I hope, there is onely a diſlocation, a putting out of joynt; and no
+more is required, but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a ſetting things right: and that will be beſt done
+(ſaith the Apoſtle) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>in the ſpirit of meekeneſſe, Gal.</hi> 6.1.
+<hi>You that are ſpirituall,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, reſtore ſuch: And you that are
+temporall Magiſtrates, and beare the <hi>Sword;</hi> you eſpecially. For what can we doe
+without you? What can <hi>Aaron</hi> doe without <hi>Moſes? Aaron</hi> may talke, but
+<hi>Moſes</hi> with his Rod muſt worke wonders. Wee are compared to the <hi>Teeth</hi> of the
+Church, <hi>Cant.</hi> 4. and ſo are you: but wee are onely <hi>Dentes Articulati,</hi> that
+forme the Voice; but you are <hi>Dentes Molares,</hi> the Grinders: thoſe whom we cannot reforme
+by Preaching, you muſt with your Authoritie breake them.</p>
+            <p>Thus ye have heard what belongeth to a Magiſtrate; his Honour, and his Charge. His Honour
+ſtands in two things; His Ordinance, his Preeminence: His Charge in the uſe of the
+<hi>Sword,</hi> whereunto three things are re<g ref="char:EOLhyphen"/>quired,
+<pb n="22" facs="tcp:95845:14"/>1. Good lawes, a <hi>Sword</hi> in the ſcabbard. 2. Up<g ref="char:EOLhyphen"/>right judgement
+according to thoſe lawes, a <hi>Sword</hi> drawne. 3. Juſt execution, and that ſtrikes the
+ſtroke; <hi>For he beareth not the Sword in vaine.</hi>
+            </p>
+            <p>And now, for a concluſion of all, You whom God hath ſo highly honoured; when yee ſee your
+ſelves environed with Officers to attend your perſons, your ſeat of Juſtice like a throne
+to exalt your Honours, a number of innocent hearers and lookers on to applaud your truth, a
+companie of guilty offenders holding up their hands at Barre to expect your Sentence: O then
+remember another day of Doome, another ſupreme Judge, before whom hearts ſhall ſpeake, and
+tongues ſhall be ſilent, and a good conſcience ſhall be better than a full purſe, At that
+day, and before that Judge, whoſe latitude is charity, whoſe longitude aeternity, whoſe depth
+inſcrutable wiſedome, and whoſe height incomparable glory. To this Lord in the Trinity of of
+perſons, and unity of ſubſtance, One God, Father, Sonne, and holy Ghoſt, be given all
+glory, praiſe and power for evermore.</p>
+            <p>AMEN.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="license">
+            <pb facs="tcp:95845:14"/>
+            <p>Perlegi Concionem hanc, dig<g ref="char:EOLhyphen"/>nam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> judico quae typis man<g ref="char:EOLhyphen"/>detur.</p>
+            <closer>
+               <signed>THO. WYKES <hi>R. P. Epiſc. Lond. Sacellanus domeſticus.</hi>
+               </signed>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
